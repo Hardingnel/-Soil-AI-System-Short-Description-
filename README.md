@@ -1,2 +1,14 @@
-# -Soil-AI-System-Short-Description-
-The Soil AI System is a Python-based application that combines machine learning and geotechnical engineering principles to assist with soil classification and laboratory test analysis. 
+---
+title: Soil AI
+emoji: 🌍
+colorFrom: green
+colorTo: blue
+sdk: gradio
+sdk_version: 4.44.0
+app_file: app/app.py
+pinned: false
+---
+
+# Soil AI
+
+Multi-tab geotechnical tool for PSD (Sieve), Plasticity (LL/PL), CBR (CSV or manual), plus Summary & Export.

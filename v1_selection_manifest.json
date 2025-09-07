@@ -1,0 +1,61 @@
+{
+  "frozen_at_utc": "2025-09-06T09:35:51.069197+00:00",
+  "notes": "Backend v1 selection for integration",
+  "artifacts": {
+    "required": {
+      "cbr_regressor": {
+        "path": "/content/drive/MyDrive/soil_ai/models/cbr_regressor_full_20250906_093232.pkl",
+        "exists": true,
+        "size_bytes": 86645,
+        "size_mb": 0.087,
+        "mtime_utc": "2025-09-06T09:32:32+00:00",
+        "sha256": "32deb2866e51b4adc026261f6e915bd80c279406c26566697e96ca1abc1bd529"
+      },
+      "feature_schema": {
+        "path": "/content/drive/MyDrive/soil_ai/models/feature_list.json",
+        "exists": true,
+        "size_bytes": 79,
+        "size_mb": 0.0,
+        "mtime_utc": "2025-09-06T09:16:15+00:00",
+        "sha256": "e9ad420bb4aec5b481e5142d1ac40b0b814ad8d42c4d0cbaf0f6ca523224670c"
+      }
+    },
+    "optional": {
+      "soil_classifier": {
+        "path": "/content/drive/MyDrive/soil_ai/models/XGB_soil_classifier.pkl",
+        "exists": true,
+        "size_bytes": 3128981,
+        "size_mb": 3.129,
+        "mtime_utc": "2025-09-06T09:32:32+00:00",
+        "sha256": "c0e47923384c7eb400a67df93ab2a739441efcd6da5a52ecdc22d423e20f672e"
+      },
+      "label_encoder": {
+        "path": "/content/drive/MyDrive/soil_ai/models/soil_classifier_label_encoder.pkl",
+        "exists": true,
+        "size_bytes": 643,
+        "size_mb": 0.001,
+        "mtime_utc": "2025-09-05T01:21:00+00:00",
+        "sha256": "63d8bfd891e94240c7c2a8d2ea5ff06d41e90e785e457d2a53eadac3873a506f"
+      },
+      "gi_regressor": {
+        "path": "/content/drive/MyDrive/soil_ai/models/XGB_gi_regressor.pkl",
+        "exists": true,
+        "size_bytes": 488267,
+        "size_mb": 0.488,
+        "mtime_utc": "2025-09-05T01:21:00+00:00",
+        "sha256": "c2ba197623cc5973830798ae4d780fb131a91e4ce641cc5c238e155d7673234a"
+      }
+    }
+  },
+  "env": {
+    "python": "3.12.11",
+    "platform": "Linux-6.1.123+-x86_64-with-glibc2.35",
+    "packages": {
+      "numpy": "1.26.4",
+      "pandas": "2.2.2",
+      "sklearn": "1.5.1",
+      "xgboost": "1.7.6",
+      "joblib": "1.3.2"
+    }
+  }
+}

@@ -1,0 +1,4 @@
+file_name,rows,cols,first_10_columns
+CBR_Data__Cleaned_.csv,14,9,"['SampleID', 'Source', 'Blows', 'MDD_gcc', 'OMC_pct', 'CBR_2p5_pct', 'CBR_5p0_pct', 'Adopted_CBR_pct', 'Notes']"
+CBR_Data__from_reports_.csv,3,6,"['SampleID', 'MDD_gcc', 'OMC_pct', 'Blows', 'CBR_2p5_pct', 'Adopted_CBR_pct']"
+master_dataset.csv,181,9,"['BatchID', 'Test_Type', 'SampleID', 'Soil_Type', 'Parameter', 'Value', 'Units', 'Source', 'Notes']"

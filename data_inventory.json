@@ -1,0 +1,47 @@
+[
+  {
+    "file_name": "CBR_Data__Cleaned_.csv",
+    "rows": 14,
+    "cols": 9,
+    "first_10_columns": [
+      "SampleID",
+      "Source",
+      "Blows",
+      "MDD_gcc",
+      "OMC_pct",
+      "CBR_2p5_pct",
+      "CBR_5p0_pct",
+      "Adopted_CBR_pct",
+      "Notes"
+    ]
+  },
+  {
+    "file_name": "CBR_Data__from_reports_.csv",
+    "rows": 3,
+    "cols": 6,
+    "first_10_columns": [
+      "SampleID",
+      "MDD_gcc",
+      "OMC_pct",
+      "Blows",
+      "CBR_2p5_pct",
+      "Adopted_CBR_pct"
+    ]
+  },
+  {
+    "file_name": "master_dataset.csv",
+    "rows": 181,
+    "cols": 9,
+    "first_10_columns": [
+      "BatchID",
+      "Test_Type",
+      "SampleID",
+      "Soil_Type",
+      "Parameter",
+      "Value",
+      "Units",
+      "Source",
+      "Notes"
+    ]
+  }
+]

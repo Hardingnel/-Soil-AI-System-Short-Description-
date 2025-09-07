@@ -1,0 +1,8 @@
+numpy
+pandas
+scikit-learn
+joblib
+plotly
+gradio==4.44.0
+xgboost
+lightgbm
